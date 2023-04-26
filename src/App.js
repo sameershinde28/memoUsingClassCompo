@@ -13,6 +13,8 @@ export default class App extends React.Component {
 
   getValue() {
     console.log(this.inputRef.current.value);
+     this.inputRef.current.style.color="red";
+     this.inputRef.current.style.backgroudColor="orange";
   }
 
   render() {
